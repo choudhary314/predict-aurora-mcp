@@ -38,6 +38,54 @@ Shows the latest planetary Kp index reading.
 
 ## Running
 
+### Run locally with `uvx` (simple)
+
+From the repo root:
+
+```bash
+uvx --from . aurora
+```
+
+From anywhere (absolute path):
+
+```bash
+uvx --from /ABSOLUTE/PATH/TO/predict-aurora-mcp aurora
+```
+
+The server runs over **stdio** (the standard MCP pattern). Your MCP client will
+start it and communicate over stdin/stdout.
+
+### Add to Claude Desktop (uvx)
+
+Add an MCP server with:
+
+- `command`: `uvx`
+- `args`: `["--from", "/ABSOLUTE/PATH/TO/predict-aurora-mcp", "aurora"]`
+
+Example (insert under `mcpServers`):
+
+```json
+{
+  "Aurora_predict": {
+    "command": "uvx",
+    "args": [
+      "--from",
+      "/ABSOLUTE/PATH/TO/predict-aurora-mcp",
+      "aurora"
+    ]
+  }
+}
+```
+
+### Add to Cline (uvx)
+
+In Cline’s MCP Servers UI, add a server with:
+
+- **Command**: `uvx`
+- **Args**: `--from /ABSOLUTE/PATH/TO/predict-aurora-mcp aurora`
+
+---
+
 If installed as a package:
 
 ```bash
