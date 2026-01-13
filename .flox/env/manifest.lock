@@ -1,0 +1,132 @@
+{
+  "lockfile-version": 1,
+  "manifest": {
+    "version": 1,
+    "install": {
+      "uv": {
+        "pkg-path": "uv"
+      }
+    },
+    "hook": {},
+    "profile": {},
+    "options": {}
+  },
+  "packages": [
+    {
+      "attr_path": "uv",
+      "broken": false,
+      "derivation": "/nix/store/k3ynm93q92sqxhpf4g4y8l8jk0z46ri0-uv-0.9.22.drv",
+      "description": "Extremely fast Python package installer and resolver, written in Rust",
+      "install_id": "uv",
+      "license": "[ Apache-2.0, MIT ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=3497aa5c9457a9d88d71fa93a4a8368816fbeeba",
+      "name": "uv-0.9.22",
+      "pname": "uv",
+      "rev": "3497aa5c9457a9d88d71fa93a4a8368816fbeeba",
+      "rev_count": 924538,
+      "rev_date": "2026-01-08T17:13:37Z",
+      "scrape_date": "2026-01-10T02:59:01.454965Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.9.22",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/8025q8dgby2wbmwf8gdf60pqjqsqs9nc-uv-0.9.22"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "uv",
+      "broken": false,
+      "derivation": "/nix/store/5m2nvgsrjwy8ghn2ih44619qzqs4cdhv-uv-0.9.22.drv",
+      "description": "Extremely fast Python package installer and resolver, written in Rust",
+      "install_id": "uv",
+      "license": "[ Apache-2.0, MIT ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=3497aa5c9457a9d88d71fa93a4a8368816fbeeba",
+      "name": "uv-0.9.22",
+      "pname": "uv",
+      "rev": "3497aa5c9457a9d88d71fa93a4a8368816fbeeba",
+      "rev_count": 924538,
+      "rev_date": "2026-01-08T17:13:37Z",
+      "scrape_date": "2026-01-10T03:15:58.040090Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.9.22",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/1ljh8nhydgfqs26pj2vap6l4cahzmmx7-uv-0.9.22"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "uv",
+      "broken": false,
+      "derivation": "/nix/store/vgbsma53faapp8ym412ac35skdh4wwv3-uv-0.9.22.drv",
+      "description": "Extremely fast Python package installer and resolver, written in Rust",
+      "install_id": "uv",
+      "license": "[ Apache-2.0, MIT ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=3497aa5c9457a9d88d71fa93a4a8368816fbeeba",
+      "name": "uv-0.9.22",
+      "pname": "uv",
+      "rev": "3497aa5c9457a9d88d71fa93a4a8368816fbeeba",
+      "rev_count": 924538,
+      "rev_date": "2026-01-08T17:13:37Z",
+      "scrape_date": "2026-01-10T03:25:53.989615Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.9.22",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/di7c2pr6c9qdy6n03h1vz4wyqq4dmnns-uv-0.9.22"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "uv",
+      "broken": false,
+      "derivation": "/nix/store/78cxv5ha7rxlqg1mkjf23bp2n1dansv9-uv-0.9.22.drv",
+      "description": "Extremely fast Python package installer and resolver, written in Rust",
+      "install_id": "uv",
+      "license": "[ Apache-2.0, MIT ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=3497aa5c9457a9d88d71fa93a4a8368816fbeeba",
+      "name": "uv-0.9.22",
+      "pname": "uv",
+      "rev": "3497aa5c9457a9d88d71fa93a4a8368816fbeeba",
+      "rev_count": 924538,
+      "rev_date": "2026-01-08T17:13:37Z",
+      "scrape_date": "2026-01-10T03:36:55.134590Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.9.22",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/nd5y9d9pnadg93n1qjj6ws21pw2d24jh-uv-0.9.22"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    }
+  ]
+}
