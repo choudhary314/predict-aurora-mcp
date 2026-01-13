@@ -55,6 +55,17 @@ uvx --from /ABSOLUTE/PATH/TO/predict-aurora-mcp aurora
 The server runs over **stdio** (the standard MCP pattern). Your MCP client will
 start it and communicate over stdin/stdout.
 
+### Run directly from GitHub with `uvx`
+
+You can run the server without cloning by installing and launching it directly from GitHub:
+
+```bash
+uvx --from git+https://github.com/tarunchoudhary/predict-aurora-mcp.git aurora
+```
+
+The server runs over **stdio** (the standard MCP pattern). Your MCP client will
+start it and communicate over stdin/stdout.
+
 ### Add to Claude Desktop (uvx)
 
 Add an MCP server with:
@@ -77,12 +88,37 @@ Example (insert under `mcpServers`):
 }
 ```
 
+Add an MCP server with:
+
+- `command`: `uvx`
+- `args`: `["--from", "git+https://github.com/tarunchoudhary/predict-aurora-mcp.git", "aurora"]`
+
+Example (insert under `mcpServers`):
+
+```json
+{
+  "Aurora_predict": {
+    "command": "uvx",
+    "args": [
+      "--from",
+      "git+https://github.com/tarunchoudhary/predict-aurora-mcp.git",
+      "aurora"
+    ]
+  }
+}
+```
+
 ### Add to Cline (uvx)
 
 In Cline’s MCP Servers UI, add a server with:
 
 - **Command**: `uvx`
 - **Args**: `--from /ABSOLUTE/PATH/TO/predict-aurora-mcp aurora`
+
+In Cline’s MCP Servers UI, add a server with:
+
+- **Command**: `uvx`
+- **Args**: `--from git+https://github.com/tarunchoudhary/predict-aurora-mcp.git aurora`
 
 ---
 
